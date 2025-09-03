@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Aplikasi Belajar SMP - PWA</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #34495e;
+        }
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .highlight {
+            background-color: #f8f9fa;
+            border-left: 4px solid #e74c3c;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .code {
+            font-family: Consolas, Monaco, 'Andale Mono', monospace;
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        .step {
+            margin: 15px 0;
+            padding: 10px;
+            border-radius: 8px;
+            background: #edf7ff;
+        }
+        .step-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #3498db;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .screenshot {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .screenshot img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 4px;
+        }
+        .caption {
+            font-style: italic;
+            color: #7f8c8d;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #2980b9;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+            .section {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+            .button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Tutorial Aplikasi Belajar SMP - PWA</h1>
+    
+    <div class="section">
+        <h2>Apa Itu Aplikasi Ini?</h2>
+        <p>Aplikasi Belajar SMP adalah Progressive Web App (PWA) yang memungkinkan siswa SMP mengatur jadwal pelajaran, mengelola tugas, berlatih soal, dan melacak progres belajar. Semua data disimpan secara lokal di perangkat Anda.</p>
+        
+        <div class="highlight">
+            <p><strong>Link Aplikasi:</strong> <a href="https://vali-tio.github.io/Bank-Soal-Latihan/" target="_blank">https://vali-tio.github.io/Bank-Soal-Latihan/</a></p>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Cara Mengakses Aplikasi</h2>
+        
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Buka browser</strong> di perangkat Anda (Chrome, Firefox, Safari, dll.)
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Kunjungi link</strong>: <a href="https://vali-tio.github.io/Bank-Soal-Latihan/" target="_blank">https://vali-tio.github.io/Bank-Soal-Latihan/</a>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Tambahkan ke layar utama</strong> untuk pengalaman terbaik:
+            <ul>
+                <li><strong>Android</strong>: Tap ikon menu (⋮) → "Add to Home screen"</li>
+                <li><strong>iOS</strong>: Tap ikon share (□ dengan ↑) → "Add to Home Screen"</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Fitur Utama dan Cara Menggunakan</h2>
+        
+        <h3>1. 📅 Jadwal Pelajaran</h3>
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Menambah Jadwal</strong>:
+            <ul>
+                <li>Pilih hari, mata pelajaran, waktu, dan guru (opsional)</li>
+                <li>Klik "+ Tambah" untuk menyimpan</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Melihat Jadwal</strong>:
+            <ul>
+                <li>Jadwal akan ditampilkan per hari dalam bentuk tabel</li>
+                <li>Untuk menghapus: Klik tombol "Hapus" pada jadwal yang ingin dihapus</li>
+            </ul>
+        </div>
+        
+        <h3>2. ✅ Manajemen Tugas (To-Do)</h3>
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Menambah Tugas</strong>:
+            <ul>
+                <li>Isi judul, pilih jenis (PR/Ujian/Catatan), mata pelajaran, tanggal jatuh tempo, dan keterangan</li>
+                <li>Klik "+ Tambah" untuk menyimpan</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Mengelola Tugas</strong>:
+            <ul>
+                <li>Centang checkbox untuk menandai tugas sebagai selesai</li>
+                <li>Tombol "Hapus" untuk menghapus tugas</li>
+            </ul>
+        </div>
+        
+        <h3>3. 📝 Latihan Soal</h3>
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Paket Soal Built-in</strong>:
+            <ul>
+                <li>Sudah tersedia paket soal Matematika (Persentase, Perbandingan, Luas & Keliling)</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Memulai Latihan</strong>:
+            <ul>
+                <li>Pilih paket soal dan jumlah soal (5 atau 10)</li>
+                <li>Klik "Mulai Latihan"</li>
+                <li>Pilih jawaban yang benar pada setiap soal</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Melihat Riwayat Skor</strong>:
+            <ul>
+                <li>Riwayat skor latihan sebelumnya ditampilkan dalam tabel</li>
+            </ul>
+        </div>
+        
+        <h3>4. 🛠 Membuat Paket Soal Kustom</h3>
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Menambahkan Soal</strong>:
+            <ul>
+                <li>Klik "+ Tambah Soal" untuk menambah soal baru</li>
+                <li>Isi pertanyaan, 4 opsi jawaban, dan pilih jawaban benar dengan radio button</li>
+                <li>Tambahkan pembahasan (opsional)</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Menyimpan Paket</strong>:
+            <ul>
+                <li>Beri judul paket dan tag/mata pelajaran</li>
+                <li>Klik "💾 Simpan Paket"</li>
+                <li>Paket akan muncul di dropdown pilihan paket soal</li>
+            </ul>
+        </div>
+        
+        <h3>5. 📊 Progres Belajar</h3>
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Ringkasan Statistik</strong>:
+            <ul>
+                <li>Jumlah tugas aktif dan selesai</li>
+                <li>Jumlah jadwal pelajaran</li>
+                <li>Rata-rata skor latihan</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Backup Data</strong>:
+            <ul>
+                <li><strong>Ekspor Data</strong>: Download file JSON berisi semua data Anda</li>
+                <li><strong>Impor Data</strong>: Unggah file JSON untuk memulihkan data</li>
+                <li><strong>Ekspor PDF</strong>: Cetak laporan (perlu integrasi tambahan)</li>
+                <li><strong>Bagikan via WhatsApp</strong>: Bagikan laporan melalui WA</li>
+            </ul>
+        </div>
+        
+        <h3>6. 🔐 Fitur Admin</h3>
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Akses Admin</strong>:
+            <ul>
+                <li>Klik tombol "🔐 Admin" di header</li>
+                <li>Jika pertama kali, buat password admin</li>
+                <li>Jika sudah, login dengan password</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Fitur Admin</strong>:
+            <ul>
+                <li>Edit/hapus paket soal kustom</li>
+                <li>Kunci/buka paket soal untuk prevent perubahan</li>
+                <li>Hapus semua riwayat skor</li>
+                <li>Ganti password admin</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Tips Penggunaan</h2>
+        <ul>
+            <li><strong>Gunakan Impor/Ekspor</strong> untuk backup data secara berkala</li>
+            <li><strong>Kunci paket soal</strong> melalui admin jika sudah tidak ingin diubah</li>
+            <li><strong>Manfaatkan filter</strong> pada todo list untuk melihat tugas aktif</li>
+            <li><strong>Ganti tema</strong> (terang/gelap) dengan klik toggle di header</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Dukungan</h2>
+        <p>Aplikasi ini gratis untuk semua. Jika Anda merasa terbantu, dukung pengembangan melalui:</p>
+        <p><strong>Saweria</strong>: <a href="https://saweria.co/valitio" target="_blank">https://saweria.co/valitio</a></p>
+    </div>
+    
+    <div class="section">
+        <h2>Pemecahan Masalah</h2>
+        <ul>
+            <li><strong>Data hilang?</strong> Pastikan Anda tidak menghapus cache browser</li>
+            <li><strong>Aplikasi tidak loading?</strong> Coba akses ulang atau gunakan browser yang berbeda</li>
+            <li><strong>Lupa password admin?</strong> Hapus data browsing untuk aplikasi ini dan buat password baru</li>
+        </ul>
+    </div>
+    
+    <div class="highlight">
+        <p><strong>Catatan</strong>: Aplikasi ini menyimpan semua data secara lokal di perangkat Anda. Data tidak dikirim ke server mana pun.</p>
+        <p><strong>© Aplikasi Belajar SMP - v1.0 Final</strong></p>
+    </div>
+    
+    <div class="footer">
+        <p>Tutorial ini dibuat untuk Aplikasi Belajar SMP PWA. Simpan halaman ini sebagai PDF melalui menu print browser Anda.</p>
+        <p>Link Aplikasi: <a href="https://vali-tio.github.io/Bank-Soal-Latihan/">https://vali-tio.github.io/Bank-Soal-Latihan/</a></p>
+    </div>
+
+    <script>
+        // Script untuk menambahkan fungsi cetak
+        document.addEventListener('DOMContentLoaded', function() {
+            const printButton = document.createElement('button');
+            printButton.textContent = 'Cetak Tutorial';
+            printButton.className = 'button';
+            printButton.style.margin = '20px auto';
+            printButton.style.display = 'block';
+            printButton.addEventListener('click', function() {
+                window.print();
+            });
+            
+            document.querySelector('h1').insertAdjacentElement('afterend', printButton);
+        });
+    </script>
+</body>
+</html>
